@@ -1,0 +1,16 @@
+40c40
+<     read ANS
+---
+>     ANS="5"
+115c115
+<         LIBS="-lpthread -lglut -lGLU -lGL -lXi -lX11 -lm"
+---
+>         LIBS="-lpthread -lglut -lGLU -lGL -lXi -lX11 -lm $GST_LIBS"
+124c124
+<     read ANS
+---
+>     ANS="n"
+182c182
+< read ANS
+---
+> ANS="y"

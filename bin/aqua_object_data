@@ -1,0 +1,27 @@
+#the number of patterns to be recognized
+4
+
+#pattern 0
+down
+0.pat
+86.0
+0.0 0.0
+
+#pattern 1
+up
+1.pat
+86.0
+0.0 0.0
+
+#pattern 2
+right
+2.pat
+86.0
+0.0 0.0
+
+#pattern 3
+left
+3.pat
+86.0
+0.0 0.0
+

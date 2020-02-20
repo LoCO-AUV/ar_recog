@@ -1,0 +1,12 @@
+<launch>
+<group ns="aqua"> 
+  <node pkg="ar_recog" type="ar_recog" name="ar_recog">
+    <!--<remap from="image" to="/aqua/back/image_rect"/>-->
+    <param name="image" value="/aqua/back/image_rect" />
+    <param name="aov" value="0.67"/>
+    <param name="camera_para" value="$(find ar_recog)/bin/camera_para.dat"/>
+    <!--<remap from="camera_info" to="/aqua/back/camera_info"/>-->
+    <param name="model_name" value="$(find ar_recog)/bin/object_data"/>
+  </node>
+</group>
+</launch>

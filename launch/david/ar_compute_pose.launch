@@ -1,0 +1,8 @@
+<launch>
+<arg name="flip" default="false"/>
+<node pkg="ar_recog" type="ar_compute_pose" name="ar_compute_pose" output="screen">
+  <param name="tag_width" value="0.178"/>
+  <!--remap from="/aqua/tags" to="/tags"/-->
+  <remap from="/camera/camera_info" to="/camera_back/camera_info"/>  
+</node>
+</launch>
