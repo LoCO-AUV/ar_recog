@@ -1,1 +1,6 @@
 src/ARToolKit/lib/*.a
+src/ARToolKit/lib/libAR.a
+src/ARToolKit/lib/libARgsub_lite.a
+src/ARToolKit/lib/libARgsub.a
+src/ARToolKit/lib/libARgsubUtil.a
+src/ARToolKit/lib/libARMulti.a
